@@ -1,0 +1,19 @@
+{
+  "name": "slack-file",
+  "version": "1.0.0",
+  "description": "Send a link to a file on a local network server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janpaepke/slack-file.git"
+  },
+  "author": "Jan Paepke (e-mail@janpaepke.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janpaepke/slack-file/issues"
+  },
+  "homepage": "https://github.com/janpaepke/slack-file#readme"
+}
