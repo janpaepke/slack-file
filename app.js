@@ -1,17 +1,19 @@
 // settings
 var settings = {
-	port: process.env.PORT || 5000
+	port: process.env.PORT || 8000
 }
 
 // requires
 var express = require("express");
 var bodyParser = require("body-parser");
 var app = express();
-var routes = require("./routes/routes.js")(app);
 
-// configure
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+// configure middleware
+app.use(bodyParser.json()); // json parser
+app.use(bodyParser.urlencoded({ extended: true })); // body parser
+
+// set routes
+var routes = require("./routes/routes.js")(app);
 
 // error handler
 app.use(function (err, req, res, next) {
