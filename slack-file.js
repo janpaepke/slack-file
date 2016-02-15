@@ -2,7 +2,7 @@ module.exports = function (req, res) {
 	var userName = req.body.user_name;
 
 	var response = {
-		text : 'Hello, ' + userName + '! this is the shit: <smb://spa1dc1/sp_at$/creation/KAPSCH/KAP/KAPCR14141_Personalinserate/03%20Layout/_alt|Click here> http://google.com' 
+		text : 'Hello, ' + userName + '! Check it out: <smb://spa1dc1/sp_at$/creation/KAPSCH/KAP/KAPCR14141_Personalinserate/03%20Layout/_alt|Here\'s your file!>' 
 	};
 	console.log (req.body);
 	// avoid infinite loop
