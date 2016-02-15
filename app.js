@@ -6,8 +6,8 @@ var settings = {
 // requires
 var express = require("express");
 var bodyParser = require("body-parser");
-var routes = require("./routes/routes.js")(app);
 var app = express();
+var routes = require("./routes/routes.js")(app);
 
 // configure
 app.use(bodyParser.json());
